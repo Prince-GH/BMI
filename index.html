@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BMI</title>
+</head>
+<body>
+    <div class="container">
+        <h2>
+            BMI<i>(Body mass Index)</i>
+        </h2>
+        <form action="">
+
+            <input type="text" id="name" placeholder="Name">
+
+            <input type="number" id="age" placeholder="Age">
+            
+            <input type="number" id="height" placeholder="Height (CM)">
+            
+            <input type="number" id="weight" placeholder="Weight (KG)">
+            
+            <div class="buttons">
+                <button type="reset">Reset</button>
+                <button type="submit">Calculate</button>
+            </div>
+
+        </form>
+        <span id="result">:/result</span>
+        <table>
+            <tr>
+                <th colspan="2">BMI Classifications</th>
+            </tr>
+            <tr>
+                <td>Normal</td>
+                <td>18.5-24.9</td>
+            </tr>
+            <tr>
+                <td>Overweight</td>
+                <td>25-29.9</td>
+            </tr>
+            <tr>
+                <td>Obese</td>
+                <td>30-34.9</td>
+            </tr>
+            <tr>
+                <td>Severly Obese</td>
+                <td>35-39.9</td>
+            </tr>
+            <tr>
+                <td>Morbid Obese</td>
+                <td>40+</td>
+            </tr>
+        </table>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

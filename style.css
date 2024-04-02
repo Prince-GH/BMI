@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height:100vh;
+    min-height: 700px;
+    background: linear-gradient(120deg,#011b11,#012b27,#042416);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+}
+
+h2{
+    color:  rgb(44, 218, 180);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    letter-spacing:5px;
+    font-weight:50;
+    display: flex;
+    gap:2px;
+}
+h2 i{
+    font-size: 14px;
+}
+
+form{
+    width:320px;
+    height:auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    gap: 15px;
+    padding:20px 0px 20px 0px;
+    perspective: 300px;
+    & h6{
+        color: white;
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    & input{
+        outline: none;
+        background: transparent;
+        color: white;
+        width: 300px;
+        font-family: monospace;
+        font-size: 20px;
+        padding: 5px 2px 5px 2px;
+        border: 1px solid #0fc790;
+        border-radius: 4px;
+    }
+    & input:hover{
+        border: 1px solid white;
+    }
+    & input::placeholder{
+        font-size:20px;
+        color:#80fff969;
+        font-family: monospace;
+    }
+    & .buttons{
+        display: flex;
+        gap:50px;
+
+        & button{
+            width:70px;
+            height: 25px;
+            font-size:15px;
+            border: none;
+            outline: none;
+            background: transparent;
+            border: 1px solid #0fc790;
+            border-radius:3px;
+            color:#ffffff;
+        }
+        & button:hover{
+            border: 1px solid white;
+        }
+    }
+}
+
+#result{
+    color: white;
+    width: 300px;
+    font-family: monospace;
+    font-size: 20px;
+    padding: 5px 2px 5px 2px;
+    border-left: 12px solid #08a072;
+    box-shadow: 0px 0px 1px 1px #06996d;
+    border-radius: 4px;
+}
+
+table{
+    width:290px;
+    height: auto;
+    color: #0fc790;
+    margin-top:50px;
+    font-family: monospace;
+    font-size: 18px;
+}
+table th{
+    color: rgb(4, 85, 67);
+    background-color: wheat;
+    font-weight:bolder;
+    font-size:20px;
+    border-top-right-radius:8px;
+    border-top-left-radius:8px;
+}
+table tr td:first-child{
+    background: rgba(3, 78, 72, 0.808);
+    padding-left:5px;
+}
+table tr td:last-child{
+    background: rgba(3, 78, 72, 0.589);
+}
+
